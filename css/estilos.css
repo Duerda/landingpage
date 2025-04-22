@@ -3,6 +3,19 @@
     text-align: center;
     margin-top: 50px;
 }
+html {
+    scroll-behavior: smooth;
+}
+
+#home {
+    height: 100vh;
+    background: url("https://img.freepik.com/vetores-gratis/padrao-de-desenho-de-graos-de-cafe-desenhados-a-mao_23-2150646733.jpg?t=st=1745340771~exp=1745344371~hmac=39df59834996d96c56ebe2823517544f58a913c00a785b29f8c830be310a2c91&w=996") center center no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 
 h1 {
     font-family: 'Playfair Display', serif;

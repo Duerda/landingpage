@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeteria Delícia</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Cafeteria Delícia</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#localizacao">Localização</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#integrante">Integrante</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="text-center">
+        <div class="container">
+            <h1>Bem-vindo à Cafeteria Delícia</h1>
+            <p class="lead">O melhor café da cidade de Itu.</p>
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <div class="card p-3">
+                        <img src="https://i.pinimg.com/400x300/f9/06/74/f90674262ab3fe3b66a14ba8a4955b33.jpg" class="card-img-top" alt="Grãos de café">
+                        <div class="card-body">
+                            <h5 class="card-title">Café Especial</h5>
+                            <p class="card-text">Nossa, é muito cremoso</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card p-3">
+                        <img src="https://i.pinimg.com/400x300/10/7c/a8/107ca880f7a3e470b8dea357eaecc5be.jpg" class="card-img-top" alt="Xícara de café">
+                        <div class="card-body">
+                            <h5 class="card-title">Ambiente Aconchegante</h5>
+                            <p class="card-text">Ideal para relaxar, trabalhar ou encontrar amigos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card p-3">
+                        <img src="https://i.pinimg.com/400x300/52/4b/17/524b175f784dd65a962ea7cca60d1029.jpg" class="card-img-top" alt="Sobremesas">
+                        <div class="card-body">
+                            <h5 class="card-title">Doces Artesanais</h5>
+                            <p class="card-text">Feitos diariamente com ingredientes frescos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#sobre" class="btn btn-primary mt-4">Sobre a Cafeteria</a>
+        </div>
+    </section>
+
+    <section id="sobre" class="text-center">
+        <div class="container">
+            <h1>Sobre Nós</h1>
+            <p class="lead">Desde 2010, servimos cafés especiais e experiências únicas para nossos clientes.</p>
+            <div id="carouselCafe" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://img.freepik.com/fotos-gratis/chavena-de-cafe-com-um-coracao-desenhado-na-espuma_1286-70.jpg" class="d-block w-100" alt="cafe">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://img.freepik.com/fotos-premium/o-interior-do-cafe-no-novo-cafe_902639-11746.jpg" class="d-block w-100" alt="Loja de café">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://saojoaods.com.br/cafeteria/wp-content/uploads/sites/4/2018/04/cafe_slide_3-h580.jpg" class="d-block w-100" alt="cafe">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselCafe" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselCafe" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Próximo</span>
+                </a>
+            </div>
+            <a href="#contato" class="btn btn-success mt-4">Fale Conosco</a>
+        </div>
+    </section>
+
+    <section id="contato" class="text-center">
+        <div class="container">
+            <h1>Contato</h1>
+            <form class="mx-auto" style="max-width: 600px;">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Seu nome">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Seu e-mail">
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" rows="4" placeholder="Sua mensagem"></textarea>
+                </div>
+                <button type="submit" class="btn btn-success">Enviar</button>
+            </form>
+            <a href="#localizacao" class="btn btn-danger mt-4">Nossa Localização</a>
+        </div>
+    </section>
+
+    <section id="localizacao" class="text-center">
+        <div class="container">
+            <h1>Localização</h1>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14637.232698640392!2d-47.6464419!3d-23.185788!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c63fa19f36fd71%3A0x8b6b92b59e974d39!2sItu%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1697487564441!5m2!1spt-BR!2sbr" allowfullscreen></iframe>
+            </div>
+            <a href="#integrante" class="btn btn-danger mt-4">Conheça o Integrante</a>
+        </div>
+    </section>
+
+    <section id="integrante" class="text-center">
+        <div class="container">
+            <h1>Integrante</h1>
+            <div class="integrante-card mx-auto" style="max-width: 300px;">
+                <img src="Image.jpg" alt="Integrante">
+                <h5>Eduarda de Souza 2DS</h5>
+                <p>Responsável pelo projeto</p>
+            </div>
+            <a href="#home" class="btn btn-primary mt-4">Voltar ao Início</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Cafeteria Delícia. instagram:@cafeteriadelcia </p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

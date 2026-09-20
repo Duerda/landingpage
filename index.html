@@ -1,149 +1,20 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
+<!doctype html>
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cafeteria Delícia</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/estilos.css">
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Cafeteria Delícia — café, pausa e encontros em Itu.">
+  <title>Cafeteria Delícia — uma pausa que fica</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
 </head>
-
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#home">Cafeteria Delícia</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="#home">Início</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#localizacao">Localização</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#integrante">Integrante</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <section id="home" class="text-center">
-        <div class="container">
-            <h1>Bem-vindo à Cafeteria Delícia</h1>
-            <p class="lead">O melhor café da cidade de Itu.</p>
-            <div class="row mt-5">
-                <div class="col-md-4">
-                    <div class="card p-3">
-                        <img src="https://i.pinimg.com/400x300/f9/06/74/f90674262ab3fe3b66a14ba8a4955b33.jpg" class="card-img-top" alt="Grãos de café">
-                        <div class="card-body">
-                            <h5 class="card-title">Café Especial</h5>
-                            <p class="card-text">Nossa, é muito cremoso</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card p-3">
-                        <img src="https://i.pinimg.com/400x300/10/7c/a8/107ca880f7a3e470b8dea357eaecc5be.jpg" class="card-img-top" alt="Xícara de café">
-                        <div class="card-body">
-                            <h5 class="card-title">Ambiente Aconchegante</h5>
-                            <p class="card-text">Ideal para relaxar, trabalhar ou encontrar amigos.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card p-3">
-                        <img src="https://i.pinimg.com/400x300/52/4b/17/524b175f784dd65a962ea7cca60d1029.jpg" class="card-img-top" alt="Sobremesas">
-                        <div class="card-body">
-                            <h5 class="card-title">Doces Artesanais</h5>
-                            <p class="card-text">Feitos diariamente com ingredientes frescos.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <a href="#sobre" class="btn btn-primary mt-4">Sobre a Cafeteria</a>
-        </div>
-    </section>
-
-    <section id="sobre" class="text-center">
-        <div class="container">
-            <h1>Sobre Nós</h1>
-            <p class="lead">Desde 2010, servimos cafés especiais e experiências únicas para nossos clientes.</p>
-            <div id="carouselCafe" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="https://img.freepik.com/fotos-gratis/chavena-de-cafe-com-um-coracao-desenhado-na-espuma_1286-70.jpg" class="d-block w-100" alt="cafe">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://img.freepik.com/fotos-premium/o-interior-do-cafe-no-novo-cafe_902639-11746.jpg" class="d-block w-100" alt="Loja de café">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://saojoaods.com.br/cafeteria/wp-content/uploads/sites/4/2018/04/cafe_slide_3-h580.jpg" class="d-block w-100" alt="cafe">
-                    </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselCafe" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Anterior</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselCafe" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Próximo</span>
-                </a>
-            </div>
-            <a href="#contato" class="btn btn-success mt-4">Fale Conosco</a>
-        </div>
-    </section>
-
-    <section id="contato" class="text-center">
-        <div class="container">
-            <h1>Contato</h1>
-            <form class="mx-auto" style="max-width: 600px;">
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Seu nome">
-                </div>
-                <div class="form-group">
-                    <input type="email" class="form-control" placeholder="Seu e-mail">
-                </div>
-                <div class="form-group">
-                    <textarea class="form-control" rows="4" placeholder="Sua mensagem"></textarea>
-                </div>
-                <button type="submit" class="btn btn-success">Enviar</button>
-            </form>
-            <a href="#localizacao" class="btn btn-danger mt-4">Nossa Localização</a>
-        </div>
-    </section>
-
-    <section id="localizacao" class="text-center">
-        <div class="container">
-            <h1>Localização</h1>
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14637.232698640392!2d-47.6464419!3d-23.185788!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c63fa19f36fd71%3A0x8b6b92b59e974d39!2sItu%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1697487564441!5m2!1spt-BR!2sbr" allowfullscreen></iframe>
-            </div>
-            <a href="#integrante" class="btn btn-danger mt-4">Conheça o Integrante</a>
-        </div>
-    </section>
-
-    <section id="integrante" class="text-center">
-        <div class="container">
-            <h1>Integrante</h1>
-            <div class="integrante-card mx-auto" style="max-width: 300px;">
-                <img src="Image.jpg" alt="Integrante">
-                <h5>Eduarda de Souza 2DS</h5>
-                <p>Responsável pelo projeto</p>
-            </div>
-            <a href="#home" class="btn btn-primary mt-4">Voltar ao Início</a>
-        </div>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Cafeteria Delícia. instagram:@cafeteriadelcia </p>
-    </footer>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
-</body>
-
-</html>
+  <header class="topbar"><a class="brand" href="#inicio"><span class="brand-mark">D</span><span>CAFETERIA<br><b>DELÍCIA</b></span></a><button class="menu" aria-label="Abrir menu" aria-expanded="false">Menu</button><nav><a href="#menu">cardápio</a><a href="#historia">nossa história</a><a href="#visite">visite</a><a class="nav-cta" href="#contato">reservar mesa</a></nav></header>
+  <main>
+    <section class="hero" id="inicio"><div class="hero-copy"><p class="eyebrow">ITU — SP · DESDE 2010</p><h1>Uma pausa<br><em>que fica.</em></h1><p>Na Delícia, café especial, doces artesanais e conversa boa cabem no mesmo momento.</p><div class="actions"><a class="button primary" href="#menu">conheça o cardápio <span>↘</span></a><a class="text-link" href="#visite">como chegar</a></div></div><div class="hero-scene" aria-label="Ilustração de uma xícara sobre mesa azul"><div class="sun"></div><div class="steam steam-one"></div><div class="steam steam-two"></div><div class="cup"><div class="coffee"></div><div class="handle"></div></div><span class="scene-note">café passado<br>com calma</span></div><div class="hero-meta"><span>CAFÉ ESPECIAL</span><span>DOCES DO DIA</span><span>AMBIENTE PARA FICAR</span></div></section>
+    <section class="menu-section" id="menu"><div class="section-head"><div><p class="eyebrow">01 / PARA PEDIR</p><h2>Pequenos rituais,<br><em>bons sabores.</em></h2></div><p>Uma seleção feita para acompanhar o seu ritmo — do primeiro café da manhã ao encontro que atravessa a tarde.</p></div><div class="menu-grid"><article class="menu-card featured"><span class="number">01</span><div class="plate plate-coffee"></div><div><p class="category">café especial</p><h3>Coado Delícia</h3><p>Notas doces, corpo leve e aquele cheiro que avisa: agora o dia começou.</p><strong>R$ 8,00</strong></div></article><article class="menu-card"><span class="number">02</span><div class="plate plate-cake"></div><div><p class="category">feito hoje</p><h3>Bolo da casa</h3><p>Uma fatia macia para dividir — ou guardar só para você.</p><strong>R$ 12,00</strong></div></article><article class="menu-card dark"><span class="number">03</span><div><p class="category">para desacelerar</p><h3>Chocolate quente</h3><p>Textura cremosa, final aveludado e tempo para conversar.</p><strong>R$ 14,00</strong></div></article></div></section>
+    <section class="story" id="historia"><div class="story-art"><div class="orbit"></div><div class="story-square">2010<br><small>o começo</small></div></div><div><p class="eyebrow">02 / NOSSA HISTÓRIA</p><h2>Feita para<br><em>sentir.</em></h2><p>Começamos pequenos, com uma máquina de café, algumas receitas e a vontade de criar um lugar onde as pessoas pudessem ficar mais um pouco.</p><p>Hoje seguimos com a mesma ideia: servir com cuidado, respeitar os ingredientes e deixar cada visita com gosto de quero voltar.</p><a class="text-link" href="#contato">fale com a gente ↗</a></div></section>
+    <section class="visit" id="visite"><div><p class="eyebrow">03 / VENHA DE PERTO</p><h2>Seu lugar para<br><em>ficar.</em></h2><p>Rua Barão do Rio Branco, 240 · Centro · Itu, SP</p><div class="hours"><span>terça a sábado <b>08h — 20h</b></span><span>domingo <b>09h — 16h</b></span></div></div><div class="map-card"><div class="map-lines"></div><span class="map-pin">D</span><p>Estamos aqui.<br><small>um café de cada vez.</small></p></div></section>
+    <section class="contact" id="contato"><div><p class="eyebrow">04 / CONVERSA ABERTA</p><h2>Quer reservar<br><em>uma mesa?</em></h2><p>Escreva para a gente. Respondemos com carinho e confirmamos tudo por mensagem.</p></div><form id="contact-form"><label>Seu nome<input name="nome" required autocomplete="name" placeholder="Como podemos chamar você?"></label><label>Seu e-mail<input type="email" name="email" required autocomplete="email" placeholder="voce@email.com"></label><label>Mensagem<textarea name="mensagem" required placeholder="Conte como podemos ajudar"></textarea></label><button class="button primary" type="submit">enviar mensagem ↗</button><p class="form-status" role="status"></p></form></section>
+  </main><footer><span>CAFETERIA DELÍCIA</span><span>uma pausa que fica · Itu, SP</span><span>© 2026</span></footer><script src="js/script.js"></script>
+</body></html>

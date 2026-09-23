@@ -1,20 +1,58 @@
 <!doctype html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Cafeteria Delícia — café, pausa e encontros em Itu.">
-  <title>Cafeteria Delícia — uma pausa que fica</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/estilos.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Cafeteria Gamela: cafés, doces e encontros no centro de Itu. Rua Paula Souza, 547B.">
+  <title>Gamela — café para ficar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="topbar"><a class="brand" href="#inicio"><span class="brand-mark">D</span><span>CAFETERIA<br><b>DELÍCIA</b></span></a><button class="menu" aria-label="Abrir menu" aria-expanded="false">Menu</button><nav><a href="#menu">cardápio</a><a href="#historia">nossa história</a><a href="#visite">visite</a><a class="nav-cta" href="#contato">reservar mesa</a></nav></header>
-  <main>
-    <section class="hero" id="inicio"><div class="hero-copy"><p class="eyebrow">ITU — SP · DESDE 2010</p><h1>Uma pausa<br><em>que fica.</em></h1><p>Na Delícia, café especial, doces artesanais e conversa boa cabem no mesmo momento.</p><div class="actions"><a class="button primary" href="#menu">conheça o cardápio <span>↘</span></a><a class="text-link" href="#visite">como chegar</a></div></div><div class="hero-scene" aria-label="Ilustração de uma xícara sobre mesa azul"><div class="sun"></div><div class="steam steam-one"></div><div class="steam steam-two"></div><div class="cup"><div class="coffee"></div><div class="handle"></div></div><span class="scene-note">café passado<br>com calma</span></div><div class="hero-meta"><span>CAFÉ ESPECIAL</span><span>DOCES DO DIA</span><span>AMBIENTE PARA FICAR</span></div></section>
-    <section class="menu-section" id="menu"><div class="section-head"><div><p class="eyebrow">01 / PARA PEDIR</p><h2>Pequenos rituais,<br><em>bons sabores.</em></h2></div><p>Uma seleção feita para acompanhar o seu ritmo — do primeiro café da manhã ao encontro que atravessa a tarde.</p></div><div class="menu-grid"><article class="menu-card featured"><span class="number">01</span><div class="plate plate-coffee"></div><div><p class="category">café especial</p><h3>Coado Delícia</h3><p>Notas doces, corpo leve e aquele cheiro que avisa: agora o dia começou.</p><strong>R$ 8,00</strong></div></article><article class="menu-card"><span class="number">02</span><div class="plate plate-cake"></div><div><p class="category">feito hoje</p><h3>Bolo da casa</h3><p>Uma fatia macia para dividir — ou guardar só para você.</p><strong>R$ 12,00</strong></div></article><article class="menu-card dark"><span class="number">03</span><div><p class="category">para desacelerar</p><h3>Chocolate quente</h3><p>Textura cremosa, final aveludado e tempo para conversar.</p><strong>R$ 14,00</strong></div></article></div></section>
-    <section class="story" id="historia"><div class="story-art"><div class="orbit"></div><div class="story-square">2010<br><small>o começo</small></div></div><div><p class="eyebrow">02 / NOSSA HISTÓRIA</p><h2>Feita para<br><em>sentir.</em></h2><p>Começamos pequenos, com uma máquina de café, algumas receitas e a vontade de criar um lugar onde as pessoas pudessem ficar mais um pouco.</p><p>Hoje seguimos com a mesma ideia: servir com cuidado, respeitar os ingredientes e deixar cada visita com gosto de quero voltar.</p><a class="text-link" href="#contato">fale com a gente ↗</a></div></section>
-    <section class="visit" id="visite"><div><p class="eyebrow">03 / VENHA DE PERTO</p><h2>Seu lugar para<br><em>ficar.</em></h2><p>Rua Barão do Rio Branco, 240 · Centro · Itu, SP</p><div class="hours"><span>terça a sábado <b>08h — 20h</b></span><span>domingo <b>09h — 16h</b></span></div></div><div class="map-card"><div class="map-lines"></div><span class="map-pin">D</span><p>Estamos aqui.<br><small>um café de cada vez.</small></p></div></section>
-    <section class="contact" id="contato"><div><p class="eyebrow">04 / CONVERSA ABERTA</p><h2>Quer reservar<br><em>uma mesa?</em></h2><p>Escreva para a gente. Respondemos com carinho e confirmamos tudo por mensagem.</p></div><form id="contact-form"><label>Seu nome<input name="nome" required autocomplete="name" placeholder="Como podemos chamar você?"></label><label>Seu e-mail<input type="email" name="email" required autocomplete="email" placeholder="voce@email.com"></label><label>Mensagem<textarea name="mensagem" required placeholder="Conte como podemos ajudar"></textarea></label><button class="button primary" type="submit">enviar mensagem ↗</button><p class="form-status" role="status"></p></form></section>
-  </main><footer><span>CAFETERIA DELÍCIA</span><span>uma pausa que fica · Itu, SP</span><span>© 2026</span></footer><script src="js/script.js"></script>
-</body></html>
+  <div class="progress" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="logo" href="#inicio" aria-label="Gamela, início"><span>G</span>AMELA</a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">Menu <i></i></button>
+    <nav id="main-nav" aria-label="Navegação principal">
+      <a href="#experiencia">Experiência</a>
+      <a href="#cardapio">Cardápio</a>
+      <a href="#visite">Visite</a>
+      <a class="nav-button" href="https://wa.me/5511974092044?text=Ol%C3%A1%2C%20Gamela!%20Gostaria%20de%20saber%20mais." target="_blank" rel="noopener">Falar com a gente <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main id="inicio">
+    <section class="hero section-shell">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="live-dot"></span> CAFETERIA · ITU, SP</p>
+        <h1>Um café<br><em>com tempo.</em></h1>
+        <p class="hero-lead">Entre para tomar um café. Fique pelo sabor, pela conversa e por aquele sentimento bom de estar no lugar certo.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#cardapio">Ver o cardápio <b>↓</b></a><a class="underlink" href="#visite">Como chegar <span>↗</span></a></div>
+        <div class="hero-note"><span class="note-line"></span><p>Feito para pausas<br><strong>desde 2014</strong></p></div>
+      </div>
+      <div class="hero-art reveal reveal-delay" aria-label="Ilustração de uma mesa de café">
+        <div class="sun-disc"></div><div class="leaf leaf-one"></div><div class="leaf leaf-two"></div>
+        <div class="table-card"><div class="table-grid"></div><div class="cup"><div class="coffee"></div><div class="cup-handle"></div></div><div class="plate"></div><div class="sugar">G</div><div class="steam steam-a"></div><div class="steam steam-b"></div></div>
+        <div class="art-label">CAFÉ<br><em>de verdade</em></div>
+      </div>
+    </section>
+
+    <div class="ticker" aria-label="Especialidades da casa"><div>CAFÉ ESPECIAL <i>✳</i> DOCES ARTESANAIS <i>✳</i> CONVERSA BOA <i>✳</i> CENTRO DE ITU <i>✳</i> CAFÉ ESPECIAL <i>✳</i> DOCES ARTESANAIS <i>✳</i></div></div>
+
+    <section class="experience section-shell" id="experiencia">
+      <div class="section-heading reveal"><p class="eyebrow">01 / A EXPERIÊNCIA</p><h2>Pequenos rituais,<br><em>grandes pausas.</em></h2></div>
+      <div class="experience-grid"><div class="experience-intro reveal"><p>Na Gamela, cada detalhe convida você a desacelerar. O café é passado com cuidado, o doce sai em pequenos lotes e a mesa está sempre pronta para mais uma história.</p><a class="underlink" href="#visite">Conheça nosso endereço <span>↗</span></a></div><div class="feature-list reveal reveal-delay"><article><span>01</span><div><h3>Café especial</h3><p>Grãos selecionados e extrações que respeitam cada origem.</p></div></article><article><span>02</span><div><h3>Feito na casa</h3><p>Doces e salgados frescos para acompanhar seu momento.</p></div></article><article><span>03</span><div><h3>Sem pressa</h3><p>Um ambiente acolhedor para trabalhar, encontrar e ficar.</p></div></article></div></div>
+    </section>
+
+    <section class="menu-section section-shell" id="cardapio"><div class="section-heading reveal"><p class="eyebrow">02 / PARA PEDIR</p><h2>O que vai na sua<br><em>mesa hoje?</em></h2><p class="heading-side">Uma seleção enxuta, afetiva e preparada para combinar com a sua pausa.</p></div><div class="menu-grid reveal reveal-delay"><article class="menu-card main-card"><div class="card-number">01</div><p class="category">queridinho da casa</p><h3>Café coado<br><em>Gamela</em></h3><p>Notas doces, aroma intenso e o tempo certo para começar bem.</p><strong>R$ 8,00</strong><div class="coffee-orbit"><span></span></div></article><article class="menu-card light-card"><div class="card-number">02</div><p class="category">feito hoje</p><h3>Bolo<br><em>da casa</em></h3><p>Uma fatia macia para acompanhar a conversa.</p><strong>R$ 12,00</strong><div class="cake-mark">✦</div></article><article class="menu-card warm-card"><div class="card-number">03</div><p class="category">para dividir</p><h3>Brunch<br><em>Gamela</em></h3><p>Uma mesa completa para transformar a manhã em programa.</p><strong>R$ 36,00</strong><div class="brunch-mark">☼</div></article></div></section>
+
+    <section class="visit section-shell" id="visite"><div class="visit-copy reveal"><p class="eyebrow">03 / VENHA DE PERTO</p><h2>Seu lugar<br><em>é aqui.</em></h2><p>Estamos no coração de Itu, pertinho do centro histórico. Chegue como quem só queria um café e fique o quanto quiser.</p><div class="address"><span class="pin">⌖</span><div><strong>Rua Paula Souza, 547B</strong><span>Centro · Itu, SP · 13300-050</span></div></div><a class="button button-orange" href="https://www.google.com/maps/search/?api=1&query=Cafeteria+Gamela%2C+Rua+Paula+Souza+547B%2C+Itu+SP" target="_blank" rel="noopener">Abrir no Google Maps <b>↗</b></a></div><div class="map-wrap reveal reveal-delay"><iframe title="Localização da Cafeteria Gamela em Itu" src="https://www.google.com/maps?q=Cafeteria+Gamela%2C+Rua+Paula+Souza+547B%2C+Itu+SP&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><div class="map-caption"><span class="map-pin">G</span><div><strong>Cafeteria Gamela</strong><small>Rua Paula Souza, 547B</small></div></div></div></section>
+
+    <section class="contact section-shell"><div class="contact-inner reveal"><p class="eyebrow">04 / CONVERSA ABERTA</p><h2>Vamos marcar<br><em>um café?</em></h2><p>Para dúvidas, encomendas ou uma mesa especial, chama a gente.</p><a class="contact-link" href="https://wa.me/5511974092044?text=Ol%C3%A1%2C%20Gamela!" target="_blank" rel="noopener">(11) 97409-2044 <span>↗</span></a></div></section>
+  </main>
+  <footer><a class="logo" href="#inicio"><span>G</span>AMELA</a><p>café para ficar · Itu, SP</p><p>© 2026 Gamela</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,58 +1,31 @@
 <!doctype html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Delícia: cafés, doces e encontros no centro de Itu. Rua Paula Souza, 547B.">
-  <title>Cafeteria Delícia — café para ficar</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Cafeteria Delícia — café, doces e bons momentos no centro de Itu.">
+  <title>Cafeteria Delícia — café passado com carinho</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="progress" aria-hidden="true"></div>
-  <header class="site-header">
-    <a class="logo" href="#inicio" aria-label="Cafeteria Delícia, início"><span>D</span>DELÍCIA</a>
-    <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">Menu <i></i></button>
-    <nav id="main-nav" aria-label="Navegação principal">
-      <a href="#experiencia">Experiência</a>
-      <a href="#cardapio">Cardápio</a>
-      <a href="#visite">Visite</a>
-      <a class="nav-button" href="https://wa.me/5511974092044?text=Ol%C3%A1%2C%20Cafeteria Delícia!%20Gostaria%20de%20saber%20mais." target="_blank" rel="noopener">Falar com a gente <span>↗</span></a>
-    </nav>
-  </header>
+  <header class="header"><a class="brand" href="#inicio"><span class="brand-icon">D</span><span>Cafeteria<br><b>Delícia</b></span></a><button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button><nav><a href="#sobre">Sobre nós</a><a href="#cardapio">Cardápio</a><a href="#galeria">Galeria</a><a href="#visite">Localização</a><a class="header-cta" href="#visite">Venha nos visitar <span>↗</span></a></nav></header>
 
   <main id="inicio">
-    <section class="hero section-shell">
-      <div class="hero-copy reveal">
-        <p class="eyebrow"><span class="live-dot"></span> CAFETERIA · ITU, SP</p>
-        <h1>Um café<br><em>com tempo.</em></h1>
-        <p class="hero-lead">Entre para tomar um café. Fique pelo sabor, pela conversa e por aquele sentimento bom de estar no lugar certo.</p>
-        <div class="hero-actions"><a class="button button-dark" href="#cardapio">Ver o cardápio <b>↓</b></a><a class="underlink" href="#visite">Como chegar <span>↗</span></a></div>
-        <div class="hero-note"><span class="note-line"></span><p>Feito para pausas<br><strong>desde 2014</strong></p></div>
-      </div>
-      <div class="hero-art reveal reveal-delay" aria-label="Ilustração de uma mesa de café">
-        <div class="sun-disc"></div><div class="leaf leaf-one"></div><div class="leaf leaf-two"></div>
-        <div class="table-card"><div class="table-grid"></div><div class="cup"><div class="coffee"></div><div class="cup-handle"></div></div><div class="plate"></div><div class="sugar">D</div><div class="steam steam-a"></div><div class="steam steam-b"></div></div>
-        <div class="art-label">CAFÉ<br><em>de verdade</em></div>
-      </div>
+    <section class="hero">
+      <div class="hero-content"><p class="eyebrow">CAFÉ, DOCE E AFETO · ITU/SP</p><h1>Seu momento<br><em>mais gostoso.</em></h1><p class="hero-text">Um cantinho aconchegante para começar o dia, encontrar alguém especial ou simplesmente fazer uma pausa com um café bem passado.</p><div class="hero-actions"><a class="button dark" href="#cardapio">Conheça o cardápio <span>↓</span></a><a class="simple-link" href="#visite">Como chegar <span>↗</span></a></div><div class="hero-stats"><div><strong>4.9</strong><small>avaliação dos clientes</small></div><i></i><div><strong>08h</strong><small>abrimos todos os dias</small></div></div></div>
+      <div class="hero-photo"><img src="assets/cafe-paes.jpg" alt="Mesa com cafés e doces artesanais"><div class="photo-label"><span>feito com carinho</span><strong>Bom dia começa aqui.</strong></div><div class="photo-badge">☕<br><small>desde<br>2010</small></div></div>
     </section>
 
-    <div class="ticker" aria-label="Especialidades da casa"><div>CAFÉ ESPECIAL <i>✳</i> DOCES ARTESANAIS <i>✳</i> CONVERSA BOA <i>✳</i> CENTRO DE ITU <i>✳</i> CAFÉ ESPECIAL <i>✳</i> DOCES ARTESANAIS <i>✳</i></div></div>
+    <section class="intro section" id="sobre"><div class="section-tag">01 / A CASA</div><div class="intro-grid"><h2>Mais que café.<br><em>Uma delícia.</em></h2><div><p>A Delícia nasceu para ser aquele lugar que você lembra quando quer comer bem e se sentir em casa. Tem cheiro de café fresco, bolo saindo do forno e mesa pronta para uma boa conversa.</p><a class="simple-link" href="#galeria">Conheça nosso espaço <span>↗</span></a></div></div></section>
 
-    <section class="experience section-shell" id="experiencia">
-      <div class="section-heading reveal"><p class="eyebrow">01 / A EXPERIÊNCIA</p><h2>Pequenos rituais,<br><em>grandes pausas.</em></h2></div>
-      <div class="experience-grid"><div class="experience-intro reveal"><p>Na Cafeteria Delícia, cada detalhe convida você a desacelerar. O café é passado com cuidado, o doce sai em pequenos lotes e a mesa está sempre pronta para mais uma história.</p><a class="underlink" href="#visite">Conheça nosso endereço <span>↗</span></a></div><div class="feature-list reveal reveal-delay"><article><span>01</span><div><h3>Café especial</h3><p>Grãos selecionados e extrações que respeitam cada origem.</p></div></article><article><span>02</span><div><h3>Feito na casa</h3><p>Doces e salgados frescos para acompanhar seu momento.</p></div></article><article><span>03</span><div><h3>Sem pressa</h3><p>Um ambiente acolhedor para trabalhar, encontrar e ficar.</p></div></article></div></div>
-    </section>
+    <section class="carousel-section" id="galeria"><div class="section top-line"><div><div class="section-tag">02 / NOSSO ESPAÇO</div><h2>Um lugar para<br><em>ficar à vontade.</em></h2></div><div class="carousel-controls"><button class="arrow prev" aria-label="Imagem anterior">←</button><div class="dots" role="tablist" aria-label="Selecionar imagem"></div><button class="arrow next" aria-label="Próxima imagem">→</button></div></div><div class="carousel" aria-live="polite"><div class="slides"><figure class="slide active"><img src="assets/cafe-paes.jpg" alt="Vitrine com pães e doces"><figcaption><span>01</span><div><strong>Doces do dia</strong><small>fresquinhos para acompanhar</small></div></figcaption></figure><figure class="slide"><img src="assets/cafe-latte.webp" alt="Café latte em uma mesa com livros"><figcaption><span>02</span><div><strong>Café passado na hora</strong><small>aroma que abraça</small></div></figcaption></figure><figure class="slide"><img src="assets/cafe-interior.jpg" alt="Interior acolhedor de uma cafeteria"><figcaption><span>03</span><div><strong>Um espaço gostoso</strong><small>para trabalhar ou conversar</small></div></figcaption></figure><figure class="slide"><img src="assets/cafe-mesa.webp" alt="Café servido em uma mesa iluminada"><figcaption><span>04</span><div><strong>Seu cantinho</strong><small>do seu jeito, no seu tempo</small></div></figcaption></figure></div><button class="carousel-play" aria-label="Pausar carrossel">Ⅱ</button></div></section>
 
-    <section class="menu-section section-shell" id="cardapio"><div class="section-heading reveal"><p class="eyebrow">02 / PARA PEDIR</p><h2>O que vai na sua<br><em>mesa hoje?</em></h2><p class="heading-side">Uma seleção enxuta, afetiva e preparada para combinar com a sua pausa.</p></div><div class="menu-grid reveal reveal-delay"><article class="menu-card main-card"><div class="card-number">01</div><p class="category">queridinho da casa</p><h3>Café coado<br><em>Delícia</em></h3><p>Notas doces, aroma intenso e o tempo certo para começar bem.</p><strong>R$ 8,00</strong><div class="coffee-orbit"><span></span></div></article><article class="menu-card light-card"><div class="card-number">02</div><p class="category">feito hoje</p><h3>Bolo<br><em>da casa</em></h3><p>Uma fatia macia para acompanhar a conversa.</p><strong>R$ 12,00</strong><div class="cake-mark">✦</div></article><article class="menu-card warm-card"><div class="card-number">03</div><p class="category">para dividir</p><h3>Brunch<br><em>Delícia</em></h3><p>Uma mesa completa para transformar a manhã em programa.</p><strong>R$ 36,00</strong><div class="brunch-mark">☼</div></article></div></section>
+    <section class="menu section" id="cardapio"><div class="section-tag">03 / PARA PEDIR</div><div class="menu-heading"><h2>Escolha sua<br><em>delícia.</em></h2><p>Favoritos preparados com ingredientes frescos e muito cuidado.</p></div><div class="menu-grid"><article><span class="menu-number">01</span><div class="menu-icon coffee-icon">☕</div><p class="category">clássicos</p><h3>Café coado</h3><p>Quentinho, aromático e passado na hora.</p><strong>R$ 8,00</strong></article><article><span class="menu-number">02</span><div class="menu-icon">✦</div><p class="category">feito hoje</p><h3>Bolo da casa</h3><p>Uma fatia macia com sabor de receita de família.</p><strong>R$ 12,00</strong></article><article><span class="menu-number">03</span><div class="menu-icon">☼</div><p class="category">para começar bem</p><h3>Brunch Delícia</h3><p>Pães, ovos, frutas e café para uma manhã especial.</p><strong>R$ 36,00</strong></article></div></section>
 
-    <section class="visit section-shell" id="visite"><div class="visit-copy reveal"><p class="eyebrow">03 / VENHA DE PERTO</p><h2>Seu lugar<br><em>é aqui.</em></h2><p>Estamos no coração de Itu, pertinho do centro histórico. Chegue como quem só queria um café e fique o quanto quiser.</p><div class="address"><span class="pin">⌖</span><div><strong>Rua Paula Souza, 547B</strong><span>Centro · Itu, SP · 13300-050</span></div></div><a class="button button-orange" href="https://www.google.com/maps/search/?api=1&query=Cafeteria+Delícia%2C+Rua+Paula+Souza+547B%2C+Itu+SP" target="_blank" rel="noopener">Abrir no Google Maps <b>↗</b></a></div><div class="map-wrap reveal reveal-delay"><iframe title="Localização da Cafeteria Delícia em Itu" src="https://www.google.com/maps?q=Cafeteria+Delícia%2C+Rua+Paula+Souza+547B%2C+Itu+SP&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><div class="map-caption"><span class="map-pin">D</span><div><strong>Cafeteria Delícia</strong><small>Rua Paula Souza, 547B</small></div></div></div></section>
-
-    <section class="contact section-shell"><div class="contact-inner reveal"><p class="eyebrow">04 / CONVERSA ABERTA</p><h2>Vamos marcar<br><em>um café?</em></h2><p>Para dúvidas, encomendas ou uma mesa especial, chama a gente.</p><a class="contact-link" href="https://wa.me/5511974092044?text=Ol%C3%A1%2C%20Cafeteria Delícia!" target="_blank" rel="noopener">(11) 97409-2044 <span>↗</span></a></div></section>
+    <section class="visit section" id="visite"><div><div class="section-tag">04 / VENHA CONHECER</div><h2>Estamos<br><em>esperando você.</em></h2><p class="visit-text">No centro de Itu, em um endereço fácil de encontrar e difícil de esquecer.</p><div class="address"><span>⌖</span><div><strong>Rua Paula Souza, 547B</strong><small>Centro · Itu, SP</small></div></div><a class="button orange" href="https://www.google.com/maps/search/?api=1&query=Rua%20Paula%20Souza%20547B%2C%20Itu%2C%20SP" target="_blank" rel="noopener">Abrir no Google Maps <b>↗</b></a></div><div class="map-card"><iframe title="Mapa da Cafeteria Delícia em Itu" src="https://www.google.com/maps?q=Rua%20Paula%20Souza%20547B%2C%20Itu%2C%20SP&output=embed" loading="lazy"></iframe><div class="map-note"><span>D</span><div><strong>Cafeteria Delícia</strong><small>Rua Paula Souza, 547B</small></div></div></div></section>
   </main>
-  <footer><a class="logo" href="#inicio"><span>D</span>DELÍCIA</a><p>café para ficar · Itu, SP</p><p>© 2026 Cafeteria Delícia</p></footer>
+  <footer><a class="brand" href="#inicio"><span class="brand-icon">D</span><span>Cafeteria<br><b>Delícia</b></span></a><p>café passado com carinho · Itu, SP</p><p>© 2026</p></footer>
   <script src="script.js"></script>
 </body>
 </html>
